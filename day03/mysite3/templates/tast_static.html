@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>演示静态图片</title>
+</head>
+<body>{% load static %}
+    <img src="/static/images/zx1.jpg">
+    <img src="http://127.0.0.1:8000/static/images/zzb.jpg">
+    <img src="{% static '/images/zzb2.jpg'%}">
+
+</body>
+</html>

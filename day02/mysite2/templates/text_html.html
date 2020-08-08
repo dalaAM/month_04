@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templates Demo</title>
+</head>
+<body>
+    <h1>
+        username:{{ name }}
+    </h1>
+    <h1>
+        age:{{ age }}
+    </h1>
+    <h1>
+        hobby:{{ hobby }} | {{ hobby.0 }}
+    </h1>
+    <h1>
+        scores:{{ scores }} | {{ scores.语文 }}
+    </h1>
+    <h1>
+        prosen:{{ prosen }} | {{ prosen.show }}
+    </h1>
+    <h1>
+        hanshu:{{ hanshu }}
+    </h1>
+    <h1>
+        script:{{ script|safe }} //加入管道符‘|‘后写入’safe‘则脚本被执行
+    </h1>
+
+    {% if age > 18 %}
+    <p>
+        你已经长大了
+    </p>
+    {% else %}
+    <p>
+        青春少年
+    </p>
+
+    {% endif %}
+
+</body>
+</html>

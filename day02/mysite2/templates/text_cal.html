@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action='/text_cal' method='POST'>
+    <input type='text' name="x" value={{ x }}>
+    <select name="op">
+        <option value="add"> +加 </option>
+        <option value="sub"> -减 </option>
+        <option value="mul" {% if op =="mul" %} selected {% endif %}> *乘 </option>
+        <option value="div"> /除 </option>
+    </select>
+    <input type='text' name="y" value={{ y }}> = <span>{{ result }}</span>
+    <div>
+        <input type="submit" value='开始计算'>
+    </div>
+</form>
+</body>
+</html>
+
+
+//前后端传参的总结：
+用户通过点击前端界面上内容将想要获取到的内容反馈到后端，后端处理用户的需求
+如：select下拉菜单：
+用户点击下拉菜单中的选项，如'add',可以理解为用户想要进行“加操作”,

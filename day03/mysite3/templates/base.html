@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+          首页
+        {% endblock %}
+
+
+    </title>
+</head>
+<body>
+    <div id="nav">
+        <a href="/test_base">首页</a>
+        <a href="/news">新闻</a>
+        <a href="/happy">娱乐</a>
+        <a href="{% url 'hap' %}">娱乐[反向解析]</a>
+    </div>
+    <div id="conent">
+        {% block conent %}
+        <h3> 河北女孩遭绑架杀害嫌疑人被抓 </h3>
+        {% endblock %}
+
+    </div>
+    <div id="header">
+        {% block header %}
+        <h3> 这是头部 </h3>
+        {% endblock %}
+
+    </div>
+    <div id="footer">
+        {% block footer %}
+        <h3> 这是尾部 </h3>
+        {% endblock %}
+
+    </div>
+
+</body>
+</html>
