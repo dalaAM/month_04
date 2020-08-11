@@ -1,0 +1,79 @@
+django搭建项目过程：
+1.建立项目：django -admin startproject 项目名
+2.cd到项目文件夹下
+3.启动项目(项目管理文件manage.py):python3 manage.py runserver
+常用命令：
+makemigrations 生成数据库同步脚本
+migrate        同步数据库
+runserver      运行开发服务器
+startapp       创建一个app
+startproject    创建一个项目
+
+4.配置django中的settings文件
+django主模块中文件有（urls\settings\）需自己配置（views\templates\)
+配置服务器地址（ALLOWED_HOSTS：默认本地回环地址：127.0.0.1）
+配置语言
+配置中间件
+配置时间
+5.终端启动数据库，建立数据库 ：create database 库名 charset =utf8
+6.连接数据库（DATABASES：配置数据库类型/数据库名称/用户名/密码/地址/端口）
+7.创建一个子应用:python3 manage.py startapp 名称
+8.注册应用（INSTALLED_APPS：在默认应用后边添加）
+9.在子应用的models中创建数据表，已经改写返回值等操作:
+10.终端生成数据库同步脚本 python3 manage.py makemigrations
+11.同步到数据库 python3 manage.py migrate
+
+
+ORM框架：
+（django框架中数据库操作的方式）
+创建表（1.数据类型：2.数据约束：）
+    语法格式：
+        导入models.Model包：from django.db import models
+        创建models的继承类：class 类名 (models.Model)
+        语句：字段名 = models.属性(指定的参数信息)
+        属性-->数据类型（共11条）
+        参数-->数据约束（共8条）
+
+操作表（3.增加数据：4.查询数据：）
+    增加数据：
+    result = 类名.objects.create（字段名 = 值1,字段名 =值2,...)
+    查询数据：
+        语法格式：
+            1.  类名.objects.方法名()
+            2.  类名.objects.方法名1(条件1).方法名2(条件2)...(只要方法的返回结果一直为查询集时query
+            set就可以一直使用,指导得到具体结果)
+
+        方法名：
+            all()方法 作用: 查询MyModel实体中所有的数据  返回值: QuerySet容器对象
+            values('列1',...)方法 查询部分列的数据并返回（以字典格式返回）  返回值: QuerySet容器对象
+            values_list('列1',...) 作用: 查询部分列的数据并返回（以元组格式返回） 返回值: QuerySet容器对象
+            order_by('-列','列')方法 作用: 排序
+            filter(条件)方法 作用：条件查询 ,返回值：QuerySet容器对象
+            exclude(条件)方法 作用：全部的数据集
+            get(条件)方法 作用：返回满足条件的唯一一条数据
+
+        查询谓词：（起到查询条件的作用）
+            __exact : 等值匹配
+            __contains: 类似模糊查询的条件
+            __startswith： 以“xx”为开头查询的条件
+            __endswith ： 以“xx”为结尾查询的条件
+            __gt: 大于指定值
+            __gte : 大于等于
+            __lt : 小于
+            __lte : 小于等于
+            __in : 查找数据是否在指定范围内
+            __range : 查找数据是否在指定的区间范围内
+
+select diver_id from tbaleA group by commpany_id having(commpany_id)=2;
+
+
+
+-
+
+
+
+
+
+
+
+
