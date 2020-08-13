@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改云笔记</title>
+</head>
+<body>
+    <form method="post" action="/note/mod/{{ note.id }}">
+        <div>
+          主题：<input type="text" value="{{ note.title }}" name="title"> <input type="submit" value="保存">
+            <a href="/note/list_view">返回列表页</a>
+        </div>
+        <div>
+            <textarea style='height: 500px;width: 700px;resize: none;' name="content">{{note.content}}</textarea>
+        </div>
+
+    </form>
+</body>
+</html>
