@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="11b0b04d-2d33-4655-b7a3-8c3690e05922" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/templates/note/upload_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../day07/总结" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mysite7/middelware/mymiddleware.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/cloudnote/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/cloudnote/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/note/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/note/templates/note/add_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/templates/note/add_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/note/templates/note/list_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/templates/note/list_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/note/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/note/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/note/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../cloud note/cloudnote/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../cloud note/cloudnote/user/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day07/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day07/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../day07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day07/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1gGLvV30KHuHRA36GOyHx2Bn1ml" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../day09" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Nosetests in test_redis.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <module name="day09" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test_redis.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Nosetests in test_redis.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="11b0b04d-2d33-4655-b7a3-8c3690e05922" name="Default Changelist" comment="" />
+      <created>1597736213423</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597736213423</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597736454336">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1597736454336" />
+    <state width="1826" height="616" key="GridCell.Tab.0.bottom" timestamp="1597736455582">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="616" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1597736455582" />
+    <state width="1826" height="616" key="GridCell.Tab.0.center" timestamp="1597736455580">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="616" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1597736455580" />
+    <state width="1826" height="616" key="GridCell.Tab.0.left" timestamp="1597736455580">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="616" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1597736455580" />
+    <state width="1826" height="616" key="GridCell.Tab.0.right" timestamp="1597736455581">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state width="1826" height="616" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1597736455581" />
+  </component>
+</project>

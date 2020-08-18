@@ -5,7 +5,8 @@
     <title>笔记列表</title>
 </head>
 <body>
-    <h1>user的笔记 <a href="note/add">添加新笔记</a>  <a href="/user/index">返回首页</a></h1>
+    <h1>user的笔记 <a href="note/add">添加新笔记</a>  <a href="/note/download">下载文件</a> <a href="/note/upload">上传文件</a> <a href="/user/index">返回首页</a>
+    </h1>
     <table >
         <tr>
             <td>
@@ -27,7 +28,7 @@
                 <h1>删除</h1>
             </td>
         </tr>
-        {% for n in note %}
+        {% for n in page %}
         <tr>
             <td>{{ n.id }}</td>
             <td><a href="/note/mod/{{ n.id }}">{{ n.title }}</a></td>
@@ -37,6 +38,33 @@
             <td><a href="/note/del/{{n.id}}">删除</a></td>
         </tr>
         {% endfor %}
+
+        <tr>
+            <td>
+                {% if page.has_previous %}
+            <a href="{% url 'book' %}?page={{ page.previous_page_number }}">上一页</a>
+        {% else %}
+        上一页
+        {% endif %}
+
+        {% for p in paginator.page_range %}
+        {% if p == page.number %}
+        {{ p }}
+        {% else %}
+        <a href="{% url 'book' %}?page={{ p }}">{{ p }}</a>
+        {% endif %}
+        {% endfor %}
+
+        {% if page.has_next %}
+        <a href="{% url 'book' %}?page={{ page.next_page_number }}">下一页</a>
+        {% else %}
+        下一页
+        {% endif %}
+            </td>
+        </tr>
+
+
+
 
     </table>
 </body>

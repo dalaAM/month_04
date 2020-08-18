@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0056578-31ab-4755-8d1e-6185b1e02f58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../cloud note/cloudnote/user/templates/user/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud note/cloudnote/user/templates/user/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../cloud note/总结" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite7/mysite7/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud note/cloudnote/note/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud note/cloudnote/note/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud note/cloudnote/user/templates/user/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud note/cloudnote/user/templates/user/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud note/cloudnote/user/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud note/cloudnote/user/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../cloud note/cloudnote/user/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../cloud note/cloudnote/user/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/总结" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../day08" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -61,5 +56,11 @@
       <updated>1597395858241</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl" timestamp="1597455685480">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="776" y="310" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1597455685480" />
   </component>
 </project>

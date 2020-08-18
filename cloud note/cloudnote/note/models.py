@@ -12,5 +12,6 @@ class Note(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
 
-
-
+#
+class File(models.Model):
+    myfile = models.FileField(upload_to='myfile')

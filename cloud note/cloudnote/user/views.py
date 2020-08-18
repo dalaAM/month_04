@@ -3,6 +3,13 @@ from django.shortcuts import render
 from .models import *
 import hashlib
 # Create your views here.
+from django.core import mail
+
+def send_email(fn):
+    def email(request,*args,**kwargs):
+        mail.send_mail('乐乐','乐乐,我想你了?','1105504468@qq.com',recipient_list =['761714169@qq.com','1105504468@qq.com'])
+        return fn(request,*args,**kwargs)
+    return email
 
 #首页
 def index(request):
@@ -12,6 +19,7 @@ def index(request):
 
 
 #注册
+@send_email
 def register_view(request):
     if request.method =='GET':
        return render(request,'user/register.html')
@@ -45,6 +53,7 @@ def register_view(request):
 
 
 #登录
+@send_email
 def login_view(request):
     if request.method == 'GET':
         #判断用户是否登录过 -->检查session ，根据session判断是否已经登录
