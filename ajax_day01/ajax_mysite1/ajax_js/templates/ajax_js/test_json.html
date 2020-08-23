@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>json测试</title>
+    <script src="/static/js/jquery-1.11.3.js"></script>
+</head>
+<body>
+    <button id="showjson">Test Json</button>
+    <script>
+        var arr =[{
+                    "uname":"liwei",
+                    "age":18
+                },]
+        $(function(){
+            $('#showjson').click(function(){
+                $(arr).each(function(index,obj){
+                    console.log("arr["+index+"]:"+","+obj.uname+","+obj.age)
+                })
+            })
+        })
+    </script>
+</body>
+</html>

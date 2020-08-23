@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jq_get测试</title>
+
+    <script src="/static/js/jquery-1.11.3.js"></script>
+</head>
+<body>
+    <button id="btn">jq_get对象</button>
+    <div id="show"></div>
+    <script>
+         // html文档所有元素都已加载
+        $(function(){
+            // 点击按钮时,事件处理函数
+            $('#btn').click(function(){
+                //jq 封装的ajax对象
+                $.ajax({
+                    url:'/ajax_js/xhr_get_server',
+                    type:'GET',
+                    success:function(res){
+                        //res指的是httpresponse对象 返回的值
+                        $('#show').html(res);
+                    }
+                })
+            })
+        })
+    </script>
+
+</body>
+</html>

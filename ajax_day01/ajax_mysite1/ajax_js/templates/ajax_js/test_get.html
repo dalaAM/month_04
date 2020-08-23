@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js_get_测试</title>
+    <script src="/static/js/common.js"></script>
+</head>
+<body>
+    <button onclick="getXhr()">getxhr对象</button>
+    <div id="show"></div>
+    <script>
+    function getXhr(){
+        // 1 创建xhr对象
+        xhr = createXhr();
+        // 2 创建请求
+        xhr.open("GET","/ajax_js/xhr_get_server",true);
+        // 3 添加事件处理函数（回调函数）
+        xhr.onreadystatechange = function(){
+            if(xhr.readyState==4 && xhr.status == 200){
+                document.getElementById("show").innerHTML = xhr.responseText;
+            }
+        }
+        // 4 发送请求
+        xhr.send(null);
+    }
+    </script>
+</body>
+</html>
